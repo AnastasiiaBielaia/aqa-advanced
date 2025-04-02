@@ -1,14 +1,14 @@
 const users = [
-    {name: "Anna", email: "annadoe123@gmail.com", age: 25},
-    {name: "Oleg", email: "olegoleg@gmail.com", age: 34},
-    {name: "Inna", email: "innainna@gamil.com", age: 27},
-    {name: "Tanya", email: "tanya123@gmail.com", age: 26}
+	{ name: 'Anna', email: 'annadoe123@gmail.com', age: 25 },
+	{ name: 'Oleg', email: 'olegoleg@gmail.com', age: 34 },
+	{ name: 'Inna', email: 'innainna@gamil.com', age: 27 },
+	{ name: 'Tanya', email: 'tanya123@gmail.com', age: 26 },
 ];
 
 for (const user of users) {
-    console.log(`Name: ${user.name}, Email: ${user.email}, Age: ${user.age}`);
-};
+	console.log(`Name: ${user.name}, Email: ${user.email}, Age: ${user.age}`);
+}
 
-for (const {name, email, age} of users) {
-    console.log(`Name: ${name}, Email: ${email}, Age: ${age}`);
-};
+for (const { name, email, age } of users) {
+	console.log(`Name: ${name}, Email: ${email}, Age: ${age}`);
+}
