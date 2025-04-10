@@ -1,7 +1,7 @@
-let name1 = "Anna";
-let name2 = "Olena";
+let name1 = 'Anna';
+let name2 = 'Olena';
 
-let greetingMessage1 = "Hello, " + name1 + " and " + name2 + "!";
+let greetingMessage1 = 'Hello, ' + name1 + ' and ' + name2 + '!';
 
 let greetingMessage2 = `Hello, ${name1} and ${name2}!`;
 

@@ -5,13 +5,13 @@ let negativeCount = 0;
 let zeroCount = 0;
 
 for (let i = 0; i < number.length; i++) {
-  if (number[i] > 0) {
-    positiveCount++;
-  } else if (number[i] < 0) {
-    negativeCount++;
-  } else {
-    zeroCount++;
-  }
+	if (number[i] > 0) {
+		positiveCount++;
+	} else if (number[i] < 0) {
+		negativeCount++;
+	} else {
+		zeroCount++;
+	}
 }
 
 console.log('Positive numbers', positiveCount);

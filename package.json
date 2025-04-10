@@ -1,0 +1,35 @@
+{
+	"name": "aqa-advanced",
+	"version": "1.0.0",
+	"description": "aqa-advanced",
+	"main": "index.js",
+	"scripts": {
+	  "prepare": "husky",
+	  "lint": "npx eslint --fix .",
+	  "test": "jest"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/AnastasiiaBielaia/aqa-advanced.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+	  "url": "https://github.com/AnastasiiaBielaia/aqa-advanced/issues"
+	},
+	"homepage": "https://github.com/AnastasiiaBielaia/aqa-advanced#readme",
+	"dependencies": {
+	  "axios": "^1.8.4",
+	  "chalk": "^5.4.1"
+	},
+	"devDependencies": {
+	  "@eslint/js": "^9.23.0",
+	  "eslint": "^9.23.0",
+	  "globals": "^16.0.0",
+	  "husky": "^9.1.7",
+	  "jest": "^29.7.0",
+	  "prettier": "3.5.3"
+	}
+  }
+  
